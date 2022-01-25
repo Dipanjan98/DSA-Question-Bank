@@ -1,0 +1,273 @@
+@charset "utf-8";
+
+body {
+	font-family: "Open Sans", 'Segoe UI Light', sans-serif;
+}
+
+html, body {
+height:100%;
+}
+
+
+a {
+	color: #777;
+}
+.item-page, .blog, .category-list, .blog-featured, .contact-catgory, .categories-list {
+	padding: 0 3.5em;
+
+	margin-bottom: 3em;
+}
+
+.jumbotron{
+	background: url("../images/images-jumbotron-ckt.jpg") bottom no-repeat;
+	width: 100%;
+	height: 250px; 
+	color: #fff;
+	padding: 30px;
+}
+.jumbotron, .container-fluid .jumbotron {
+    border-radius: 0px;
+}
+
+.lead-h1 {
+font-size: 3em;
+line-height: 1.2em;
+text-align: center;
+}
+
+.lead-p {
+text-align: center;
+}
+
+.course-number {
+	margin-top: 42px;
+}
+
+footer{
+	padding-top: 2em;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	color: #999;
+	text-align: center;
+}
+
+#myLogin {
+	text-align: right;
+}
+.bottom-space{
+	padding-bottom: 2em;
+}
+
+.form-horizontal .control-group {
+  margin-bottom: 20px;
+  *zoom: 1;
+}
+
+.form-horizontal .control-label {
+  float: left;
+  width: 160px;
+  padding-top: 5px;
+  text-align: right;
+}
+
+.form-horizontal .controls {
+  *display: inline-block;
+  *padding-left: 20px;
+  margin-left: 180px;
+  *margin-left: 0;
+}
+
+/* additions starts*/
+
+#portfolio {
+padding: 60px 0;
+}
+
+.hero-title i {
+background:none repeat scroll 0 0 #57bddb;
+/*border-radius*/
+-webkit-border-radius:50%;
+   -moz-border-radius:50%;
+        border-radius:50%;
+color:#fff;
+font-size:35px;
+height:75px;
+padding:20px;
+width:75px;
+}
+
+
+.top-space{
+	padding-top: 2em;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #fff;
+  background-color: #9f9f9f;
+}
+#home {
+height:100%;
+display:table;
+min-height:100%;
+vertical-align:middle;
+width:100%;
+position:relative;
+
+}
+.welcome-text{
+display:table-cell;
+position:relative;
+vertical-align:middle;
+z-index:3;
+text-align:center;
+color:#fff;
+font-size:16px;
+z-index:99;
+}
+.welcome-text .container{
+max-width:800px;
+}
+.home-parallax, .parallax-bg, #home{
+background:url("../images/images-home.jpg") no-repeat fixed center top;
+/*background-size*/
+-webkit-background-size:/*@@prefixmycss->No equivalent*/;
+   -moz-background-size:cover;
+     -o-background-size:/*@@prefixmycss->No equivalent*/;
+        background-size:cover;
+}
+.home-parallax, .parallax-bg{
+height:100%;
+left:0;
+position:absolute;
+top:0;
+width:100%;
+}
+.home-overlay {
+background:none repeat scroll 0 0 #000;
+height:100%;
+left:0;
+opacity:0.3;
+position:absolute;
+top:0;
+width:100%;
+content:"";
+}
+.parallax-overlay {
+background:none repeat scroll 0 0 #000;
+height:100%;
+left:0;
+opacity:0.5;
+position:absolute;
+top:0;
+width:100%;
+content:"";
+}
+
+.parallax-overlay{background-color:#000}
+
+.welcome-text h2{
+font-size:60px;
+letter-spacing:10px;
+text-transform:uppercase;
+}
+
+
+/*about*/
+
+#aboutbuet{
+margin:40px 0 0 0;
+}
+.page-title{
+color:#334852;
+font-family:open sans;
+font-size:28px;
+font-weight:300;
+letter-spacing:2px;
+line-height:35px;
+margin-bottom:20px;
+text-transform:uppercase;
+}
+#about .page-title{
+margin-top:60px;
+}
+.btn-filled, .btn-bordered{
+/*border-radius*/
+-webkit-border-radius:0;
+   -moz-border-radius:0;
+        border-radius:0;
+margin-top:15px;
+}
+.btn-filled{
+background:#57bddb;
+color:#fff;
+margin-right:20px;
+border:2px solid #57bddb;
+}
+.btn-bordered{
+border:2px solid #57bddb;
+color:#57bddb;
+background:transparent;
+}
+.btn-filled:hover{
+color:#fff;
+opacity:.7;
+}
+.btn-bordered:hover{
+color:#57bddb;
+opacity:.7;
+}
+
+
+/*parallax*/
+#parallax_1{
+color:#fff;
+position:relative;
+padding: 60px 0;
+}
+#parallax_1 .btn-bordered{
+border-color:#fff;
+color:#fff;
+}
+#parallax_1 h2.page-title{
+color:#fff;
+}
+.parallax-bg, #parallax_1{
+background:url(../images/images-slider-1.jpg) no-repeat fixed center top;
+/*background-size*/
+-webkit-background-size:/*@@prefixmycss->No equivalent*/;
+   -moz-background-size:cover;
+     -o-background-size:/*@@prefixmycss->No equivalent*/;
+        background-size:cover;
+}
+.parallax-bg:before{
+background:#333;
+}
+.call_to_action{
+padding:100px 0;
+}
+
+/*contact*/
+#contact {
+background:#ECF0F3;
+padding: 60px 0;
+margin-bottom: -90px;
+}
+/* additions endss*/
+
+
+
+@media (max-width: 767px) {
+	body .carousel-caption h3{
+		font-size: 90%;
+	}
+	body .carousel-caption p{
+		font-size: 80%;
+	}
+	body .carousel-caption h3{
+		font-size: 90%;
+	}
+	body .top-heading h1{
+		//font-size: 100%;
+	}
+}
